@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.mian{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+   width: 100%;
+   height: 80px;
+   background-color: blue;
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 3vw;
+   position: fixed;
+   top: 0;
+   transition: background-color 0.3s ease;
+   z-index: 1000;
+   z-index: 10;
+}
+#firsttop #menu{
+    display: none;
+    color: #daddda;
+}
+#firsttop{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   text-align: center;
+   color: #daddda;
+
+}
+#carousal{
+    padding: .6vw 1.8vw;
+    margin-top: 20px;
+}
+
+#secondtop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #daddda;
+}
+h6{
+    color: #daddda;
+}
+
+.secondtop h2{
+    font-family:'Times New Roman', Times, serif;
+}
+.middle{
+    width: 100%;
+    height: calc(100% -80px);
+}
+.first i{
+    margin: 10px;
+    color: rgb(226, 221, 221);
+}
+
+
+.secondmiddle{  
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FBF7EE;
+    padding: 5vw 0;
+}
+
+
+.secondmiddle img{
+     width: 20%;
+     height: 20%;
+}
+.secondmiddle h5{
+     font-size: 1vw;
+     color: #f8c135;
+     line-height: 20px;
+     font-family:'Courier New', Courier, monospace;
+
+}
+span{
+      font-size: 1vw;
+      font-family:'Courier New', Courier, monospace;
+      text-transform: capitalize;
+      font-weight: 600;
+      color: black;
+
+}
+.thirdmiddle {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left {
+    width: 50%;
+    height: 100%;
+
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    background-color:#FBF8F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text{
+    width:70%;
+    height: 70%;
+    padding: 3vw 3vw;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+   text-transform: capitalize;
+}
+
+.text h4{
+      font-size: .5vw;
+      text-transform: capitalize;
+      font-weight: 500;
+}
+.text h2{
+    font-size: 2.2vw;
+    letter-spacing: 3px;
+    line-height: -9px;
+    font-weight: 600;
+    
+}
+.text h4{
+    margin-top: 40px;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding:  0 3vw;
+    margin-bottom: 3vw;
+}
+.text a{
+         padding: 3vw 0;
+         color: black;
+         text-transform: capitalize;
+}
+
+
+.fourthmiddle {
+    width: 100%;
+    height: inherit;
+    background-color: #FBF7EE;
+}
+.top {
+    text-align: center;
+  padding: 3vw 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.top span{
+     font: 1vw;
+     color: goldenrod;
+}
+.top h3{
+    font-size: 1.9vw;
+}
+.extra{
+     width: 100%;
+     height:80%;
+     display: flex;
+     padding-bottom:4vw ;
+}
+
+.extraleft {
+    width: 35%;
+    height: 100%;
+    background-color: #35adf8;
+}
+.back1 {
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://punitbalana.in/cdn/shop/files/categories_section_4.png?v=1696853910');
+}
+.back2 {
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  background-image: url('https://punitbalana.in/cdn/shop/files/categories_section_59a02a37-1b70-4960-b6e6-9ca48513d361.jpg?v=169823732');
+
+}
+
+.extramid {
+    width: 35%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f8c135;
+    background-image: url('https://punitbalana.in/cdn/shop/files/Rectangle_58_f6e1a761-0993-4608-95cd-979c17219af4.jpg?v=1696854723');
+}
+.extraright {
+    width: 35%;
+    height: 100%;
+    background-color: #35f8c4;
+}
+.back3 {
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://punitbalana.in/cdn/shop/files/categories_section_4.png?v=1696853910');
+}
+.back4 {
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  background-image: url('https://punitbalana.in/cdn/shop/files/categories_section_59a02a37-1b70-4960-b6e6-9ca48513d361.jpg?v=169823732');
+
+}
+#fifth{
+    width: 100%;
+    height: inherit;
+    background-color: #FBF7EE;
+}
+
+#fifthleft{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color: #FBF7EE;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    text-align: center;
+}
+
+.sixthmiddle {
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    padding: 6vw 2vw;
+    font-weight: 400;
+    background-color: #FBF7EF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sixthmiddle h5{
+    font-size: 1vw;
+        margin-bottom: 4vw;
+}
+.swip{
+    width: 100%;
+   height: inherit;
+   padding-bottom: 6vw;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 90%;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 28px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .viedosection{
+    width: 100%;
+    height: inherit;
+  }
+  .viedosection video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sevenmiddle {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.sevenleft {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url('https://punitbalana.in/cdn/shop/files/Shop_the_look_432708b8-3a1a-47ae-a5ef-db32d291cc52.jpg?v=1697616324');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.sevenrigth {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F3EDE2;
+}
+
+.rigthimage h3{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 400;
+     text-transform: capitalize;
+     padding-bottom: 2vw;
+}
+.rigthimage img{
+       width: 250px;
+       height: 300px;
+}
+.rigthimage h4{
+     text-align: center;
+}
+.eightmiddle{
+     width: 100%;
+     min-height: 100%;
+    background-color: #FBF7EF;
+    text-align: center;
+}
+
+.eigtext{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+     padding: 4vw 0;
+     text-transform: capitalize;
+}
+
+.eigtext h6{
+    color: #B9A282;
+}
+
+.eigtext h3{
+     margin-bottom: 40px;
+}
+
+.imagesectiongroup{
+     width: 100%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imagesectiongroup img{
+     width: 350px;
+     height: 500px;
+}
+
+.lastmidlle{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    background-color:#FBF7EE;
+   
+}
+.lasttetx{
+    padding: 4vw 0;
+}
+.lasttetx a{
+    color: black;
+}
+.iocnlast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5vw;
+}
+.iocnlast i{
+    font-size: 2vw;
+}
+.iocnlast h4{
+    font-size: 1.6vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+ 
+}
+.topfooter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 4vw 6vw;
+    border-bottom: 1px solid #daddda;
+}
+.f2text{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.bootom{
+    text-align:center;
+    padding: 1vw 0;
+    color: #daddda;
+}
+.f1 input{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+}
+input::placeholder{
+    color: white;
+}
+a{
+
+
+    color: #afb2af;
+    text-decoration: none;
+}
+.f4 h6{
+     line-height: 40px;
+}
+
+
+.iocns{
+    color: white;
+    margin-top: 10vw;
+   text-align: center;
+   display: flex;
+
+
+}
+.iocns i{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+    font-size: 1.4vw;
+    margin: 10px;
+    background-color:#262626;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.bootom{
+    color: white;
+}
+
+
+
+@media (max-width:550px) {
+    .nav{
+        width: 100%;
+
+    }
+    #user{
+         display: none;
+    }
+    #firsttop #menu{
+       display: block;
+    }
+    #secondtop h6{
+        display: none;
+    }
+
+    .middle{
+        height: 100%;
+        height: 100%;
+    }
+    img{
+         height:100vh ;
+         width: 100%;
+    }
+    .secondmiddle{
+    }
+    .secondmiddle img{
+         width: 150px;
+    }
+    .secondmiddle h5,span{
+        font-size: 3vw;
+        text-align: center;
+    }
+    .thirdmiddle{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .right h4{
+        font-size: 3vw;
+    }
+    .right h2{
+        font-size: 4vw;
+    }
+    .top{
+        background-color:#FBF7EE;
+    }
+    .top h3{
+       font-size: 6vw;
+       font-weight: 400;
+    }
+    .extra{
+        flex-direction: column;
+    }
+    .extraleft{
+        width: 100%;
+        height: 100%;
+        display: flex;
+       
+    }
+    .back1{
+         width: 100%;
+         height: inherit;
+    }
+    .back2{
+         width: 100%;
+         height: inherit;
+    }
+    .extramid{
+         width: 100%;
+         height:1500px;
+    }
+    .extraright{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .back3{
+        width: 100%;
+        height: 100%;
+    }
+    .back4{
+        width: 100%;
+        height: 100%;
+    }
+    #fifth{
+        margin-top:2px;
+    }
+    #fifthleft{
+    }
+    .text h4{
+         font-size: 3vw;
+    }
+    .text h2{
+        font-size: 4vw;
+    }
+    .sixthmiddle{
+        margin-top: 20px;
+    }
+    .sixthmiddle h3{
+        font-size: 5vw;
+    }
+    .sixthmiddle h5{
+        font-size: 3vw;
+    }
+   .viedosection{
+    width: 100%;
+   }
+   .viedosection viedo{
+      height: 50vh;
+   }
+   .sevenmiddle{
+    flex-direction: column;
+   }
+   .sevenleft{
+    width: 100%;
+   }
+   .sevenrigth{
+    width: 100%;
+   }
+   .rigthimage h3{
+    text-align: center;
+    margin-top: 30px;
+   }
+   .rigthimage img{
+    padding-bottom: 4vw;
+   }
+   .eigtext{
+    padding-top: 90px;
+    }
+   .imagesectiongroup img{
+     width: 200px;
+     height: 200px;
+   }
+   .lastmidlle{
+    height: 20%;
+   }
+   .lasttetx a{
+    font-size: 4vw;
+   }
+   .iocnlast i{
+    font-size: 5vw;
+   }
+   .iocnlast h4{
+    font-size: 4vw;
+   }
+
+   footer{
+    width: 100%;
+   height: 60%;
+
+   }
+   .f1{
+    padding: 5vw 2vw;
+   }
+   .f1 i{
+    display: none;
+   }
+   
+   .topfooter{
+    flex-direction: column;
+    margin-top: 20px;
+   }
+  .topfooter a{
+    display: none;
+   }
+   .f4 h6{
+    display: none;
+   }
+   .f2{
+    margin-bottom: 20px;
+   }
+   .f3{
+    margin-bottom: 20px;
+   }
+   .f4{
+    margin-bottom: 20px;
+   }
+   .bootom h6{
+    margin-top: 20px;
+   }
+}
